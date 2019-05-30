@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:layout_marginTop="500dp"
+    android:background="@null"
+   android:layout_gravity="bottom">
+    <RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@null"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/update"
+        android:id="@+id/sub_updates_id"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@null"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+    android:src="@drawable/solved_problem"
+    android:id="@+id/sub_solved_problem_id"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_centerInParent="true"
+    android:layout_alignParentLeft="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/ic_gk"
+        android:id="@+id/sub_g_k_id"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/ic_video"
+            android:id="@+id/sub_videos_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"/>
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/tips_tricks"
+            android:id="@+id/sub_tips_tricks_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/close_circle"
+            android:id="@+id/sub_close_ids"
+            android:background="@color/white"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+    </LinearLayout>

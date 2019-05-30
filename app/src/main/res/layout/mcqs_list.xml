@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question 1"
+            android:textSize="13sp"
+            android:id="@+id/question_txt"
+            android:fontFamily="@font/montserrat"
+            android:textColor="#000"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="12.3sp"
+            android:paddingBottom="10dp"/>
+        <CheckBox
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/checkBox1"
+            android:fontFamily="@font/montserrat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e0e7e3"
+            app:buttonTint="@color/colorPrimaryGreen"
+            android:textSize="13sp"
+            android:text="OPTION 1"
+            />
+        <CheckBox
+
+            android:id="@+id/checkBox2"
+
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OPTION 2"
+            android:textSize="13sp"
+            android:background="#e0e7e3"
+            app:buttonTint="@color/colorPrimaryGreen"
+            />
+
+        <CheckBox
+
+            android:id="@+id/checkBox3"
+
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e0e7e3"
+            android:text="OPTION 3"
+            android:textSize="13sp"
+            app:buttonTint="@color/colorPrimaryGreen"
+            />
+        <CheckBox
+
+            android:id="@+id/checkBox4"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/montserrat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e0e7e3"
+            android:text="OPTION 4"
+            android:textSize="13sp"
+            app:buttonTint="@color/colorPrimaryGreen"
+            />
+</LinearLayout>
+
+    <View
+        android:layout_margin="20dp"
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/colorPrimaryGreen" />
+</LinearLayout>

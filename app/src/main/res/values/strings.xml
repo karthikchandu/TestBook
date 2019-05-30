@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TestBook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test__list">Test_List</string>
+
+
+    <string name="Videos_label">Videos</string>
+    <string name="Problem_Solved_label">Problem Solved</string>
+    <string name="Updates_label">Updates</string>
+    <string name="GK_label">GK</string>
+    <string name="TipsTrick_label">Tips &amp; Tricks</string>
+    <string name="CA_label">CA</string>
+    <string name="upcoming_events_label">Upcoming Events</string>
+    <string name="discuss_label">Discuss</string>
+    <string name="Home_label">Home</string>
+    <string name="About_label">About</string>
+    <string name="Blogs_label">Blogs</string>
+    <string name="Tests_label">Tests</string>
+    <string name="Results_label">Results</string>
+
+</resources>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Result_Analysis">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat"
+        android:statusBarColor="@color/colorPrimaryGreen"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        >
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GK"
+            android:fontFamily="@font/montserrat"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="-6sp"
+            android:textColor="@color/white"
+            android:textSize="14.3sp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14.7sp"
+        android:textColor="@color/text_black"
+        android:letterSpacing="0.03"
+        android:fontFamily="@font/montserrat"
+        android:lineSpacingExtra="-4.7sp"
+        android:gravity="center_horizontal"
+        android:text="Keep Improving!"/>
+
+    <LinearLayout
+        android:layout_below="@+id/text"
+        android:id="@+id/scoreboxeslayout"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp">
+        <android.support.design.card.MaterialCardView
+            android:id="@+id/card_view"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
+            android:background="@drawable/custom_square_shape"
+            android:layout_gravity="center_horizontal">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SCORE"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textSize="14.7sp"
+                android:letterSpacing="0.03"
+                android:lineSpacingExtra="-4.7sp"
+                tools:text="SCORE"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/text_black"
+                 />
+            <TextView
+                android:layout_marginTop="30.7dp"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="24.75/100"
+                android:textColor="@color/red"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/montserrat"
+                android:letterSpacing="0.03"
+                android:lineSpacingExtra="-4.7sp"
+                />
+</RelativeLayout>
+        </android.support.design.card.MaterialCardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_width="108dp"
+            android:layout_height="74dp"
+            android:background="@drawable/custom_square_shape"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:orientation="vertical">
+
+            <TextView
+
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="14.7sp"
+                android:letterSpacing="0.03"
+                android:lineSpacingExtra="-4.7sp"
+                android:text="RANK"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/text_black"
+                />
+            <TextView
+                android:layout_marginTop="30.7dp"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/GreenText"
+                android:letterSpacing="0.03"
+                android:lineSpacingExtra="-4.7sp"
+                android:text="1357"
+                />
+        </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@id/scoreboxeslayout"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:id="@+id/view_solution_btn"
+        android:textAlignment="gravity"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_square_shape"
+        android:fontFamily="@font/montserrat"
+        android:textSize="12.3sp"
+        android:textColor="@color/text_black"
+        android:letterSpacing="0.03"
+        android:textAllCaps="false"
+        android:lineSpacingExtra="-2.3sp"
+        android:text="View Solutions"/>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:padding="24dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/view_solution_btn"
+        android:textAlignment="gravity"
+        android:layout_height="wrap_content"
+        android:background="@color/colorbutton"
+        android:fontFamily="@font/montserrat"
+        android:textSize="12.3sp"
+        android:textColor="@color/white"
+        android:letterSpacing="0.05"
+        android:lineSpacingExtra="-2.3sp"
+        android:textAllCaps="false"
+        android:text="Share Results"/>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/borderLine"
+
+        />
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="14.7sp"
+    android:textColor="@color/text_black"
+    android:textAlignment="center"
+    android:fontFamily="@font/montserrat"
+    android:letterSpacing="0.03"
+    android:lineSpacingExtra="-4.7sp"
+    android:gravity="center_horizontal"
+    android:text="Please rate this test"/>
+
+        <RatingBar
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:theme="@style/RatingBar"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</LinearLayout>

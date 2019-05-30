@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_view_videos"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        app:civ_fill_color="#e85858"
+        app:civ_border_color="#000"
+        android:layout_weight="1"
+        app:civ_border_width="2dp"
+        android:src="@drawable/videos" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_view_problmsolved"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        app:civ_border_width="2dp"
+        android:src="@drawable/solved_problem" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_view_updates"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        app:civ_fill_color="#f8a31a"
+        android:layout_weight="1"
+        app:civ_border_width="2dp"
+        android:src="@drawable/update" />
+
+</LinearLayout>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/Videos_label"
+        android:textColor="@color/text_black"
+        android:fontFamily="@font/gadugib"
+        android:textSize="14.3sp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="0dip"
+        android:text="@string/Problem_Solved_label"
+        android:textColor="@color/text_black"
+        android:fontFamily="@font/gadugib"
+        android:textSize="14.3sp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/Updates_label"
+        android:textColor="@color/text_black"
+        android:fontFamily="@font/gadugib"
+        android:textSize="14.3sp"/>
+
+</TableRow>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_view_gk"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        app:civ_border_overlay="true"
+        app:civ_fill_color="#00ab7f"
+        app:civ_border_width="2dp"
+        android:src="@drawable/g_k" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_view_tips"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        app:civ_border_width="2dp"
+        android:src="@drawable/tips_tricks" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_view_ca"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        app:civ_fill_color="#f8a31a"
+        android:layout_weight="1"
+        app:civ_border_width="2dp"
+        android:src="@drawable/ca" />
+
+</LinearLayout>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/GK_label"
+        android:textColor="@color/text_black"
+        android:fontFamily="@font/gadugib"
+        android:textSize="14.3sp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="0dip"
+        android:text="@string/TipsTrick_label"
+        android:textColor="@color/text_black"
+        android:fontFamily="@font/gadugib"
+        android:textSize="14.3sp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/CA_label"
+        android:textColor="@color/text_black"
+        android:fontFamily="@font/gadugib"
+        android:textSize="14.3sp"/>
+
+</TableRow>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_view_upcoming"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        app:civ_border_width="2dp"
+        android:src="@drawable/upcoming" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_view_discus"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        app:civ_border_width="2dp"
+        android:src="@drawable/discussion" />
+
+
+</LinearLayout>
+
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/upcoming_events_label"
+        android:textColor="@color/text_black"
+        android:fontFamily="@font/gadugib"
+        android:textSize="14.3sp"/>
+
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/discuss_label"
+        android:textColor="@color/text_black"
+        android:fontFamily="@font/gadugib"
+        android:textSize="14.3sp"/>
+
+</TableRow>
+
+</LinearLayout>
+
+
+<RelativeLayout
+    android:layout_below="@+id/layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="bottom">
+<ToggleButton
+    android:id="@+id/circle_openmenu"
+    android:layout_width="40dp"
+    android:src="@drawable/open_circle"
+    android:layout_height="40dp"
+    android:textOn=" "
+    android:textOff=" "
+    android:layout_marginBottom="50dp"
+    android:layout_centerInParent="true"
+    android:background="@drawable/custom_check"
+    />
+</RelativeLayout>
+
+</RelativeLayout>

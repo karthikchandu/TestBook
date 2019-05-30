@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".About"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat"
+        android:statusBarColor="@color/colorPrimaryGreen"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        >
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:fontFamily="@font/montserrat"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="-6sp"
+            android:textColor="@color/white"
+            android:textSize="14.3sp"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:layout_marginTop="79dp"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="16dp"
+            android:textColor="@color/text_black"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="0sp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="13sp"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/text_black"
+            android:letterSpacing="0.02"
+            android:textAlignment="center"
+            android:lineSpacingExtra="6.3sp"
+            android:text="Testbook is an affordable platform for faster and efficient exam preparation. Users can learn new concepts, attempt numerous mocktests to compare their preparation level with thousands of fellow aspirants. We provide users with relevant analytics on his performance in the mocktests to pinpoint their weak areas of preparation."
+            />
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Let's Start!"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:fontFamily="@font/gadugib"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorbutton"/>
+    </LinearLayout>
+</LinearLayout>

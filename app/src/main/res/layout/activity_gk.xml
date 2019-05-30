@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GK">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat"
+        android:statusBarColor="#22ab1e"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        >
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GK"
+        android:fontFamily="@font/montserrat"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="-6sp"
+        android:textColor="@color/white"
+        android:textSize="14.3sp"/>
+    </android.support.v7.widget.Toolbar>
+<android.support.v7.widget.RecyclerView
+    android:layout_below="@+id/toolbar"
+    android:id="@+id/recycler_gk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</RelativeLayout>

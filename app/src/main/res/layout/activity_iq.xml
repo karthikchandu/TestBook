@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IQ">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat"
+        android:statusBarColor="@color/colorPrimaryGreen"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        >
+    <TextView
+    android:id="@+id/toolbar_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Videos"
+    android:fontFamily="@font/montserrat"
+    android:letterSpacing="0.01"
+    android:lineSpacingExtra="-6sp"
+    android:textColor="@color/white"
+    android:textSize="14.3sp"/>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="5dp"
+        >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="23dp"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1" >
+
+            <RelativeLayout
+                android:id="@+id/tvTopName11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_column="0">
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white">
+                </View>
+
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/colorSpitial">
+                </View>
+
+
+                <View
+                    android:layout_marginTop="80dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/colorback">
+
+                </View>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:src="@drawable/spatial"
+                    android:padding="1dp"
+                    app:civ_border_width="4dp"
+                    app:civ_fill_color="@color/white"
+                    app:civ_border_color="@color/white"/>
+                <TextView
+                    android:layout_marginTop="95dp"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_black"
+                    android:letterSpacing="0.02"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="-3.7sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spatial Test"/>
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/tvTopName12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_column="0">
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white">
+                </View>
+
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/colorPaper">
+                </View>
+
+
+                <View
+                    android:layout_marginTop="80dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/colorback">
+
+                </View>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:src="@drawable/folding"
+                    android:padding="1dp"
+                    app:civ_border_width="4dp"
+                    app:civ_fill_color="@color/white"
+                    app:civ_border_color="@color/white"/>
+                <TextView
+                    android:layout_marginTop="95dp"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_black"
+                    android:letterSpacing="0.02"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="-3.7sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paper Folding"/>
+
+            </RelativeLayout>
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1" >
+
+            <RelativeLayout
+                android:id="@+id/tvTopName21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_column="0">
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white">
+                </View>
+
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/colorNumerical">
+                </View>
+
+
+                <View
+                    android:layout_marginTop="80dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/colorback">
+
+                </View>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:src="@drawable/numerical"
+                    android:padding="1dp"
+                    app:civ_border_width="4dp"
+                    app:civ_fill_color="@color/white"
+                    app:civ_border_color="@color/white"/>
+                <TextView
+                    android:layout_marginTop="95dp"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_black"
+                    android:letterSpacing="0.02"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="-3.7sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Numerical Test"/>
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/tvTopName22"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:layout_column="0">
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#fff">
+                </View>
+
+
+                <View
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@color/colorMemory">
+                </View>
+
+
+                <View
+                    android:layout_marginTop="80dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/colorback">
+
+                </View>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:src="@drawable/memory"
+                    android:padding="1dp"
+                    app:civ_border_width="4dp"
+                    app:civ_fill_color="@color/white"
+                    app:civ_border_color="@color/white"/>
+                <TextView
+                    android:layout_marginTop="95dp"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_black"
+                    android:letterSpacing="0.02"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="-3.7sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memory Test"/>
+
+            </RelativeLayout>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <TableLayout
+
+        android:id="@+id/tblTop11List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="23dp"
+        android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/tableRow31"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1" >
+
+        <RelativeLayout
+            android:id="@+id/tvTopName31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:layout_column="0">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white">
+            </View>
+
+
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/colorlogical">
+            </View>
+
+
+            <View
+                android:layout_marginTop="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorback">
+
+            </View>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:src="@drawable/logical_test"
+                android:padding="1dp"
+                app:civ_border_width="4dp"
+                app:civ_fill_color="#fff"
+                app:civ_border_color="#fff"/>
+            <TextView
+                android:layout_marginTop="95dp"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/text_black"
+                android:letterSpacing="0.02"
+                android:fontFamily="@font/montserrat"
+                android:lineSpacingExtra="-3.7sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logical Test"/>
+
+        </RelativeLayout>
+
+
+
+
+
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/iconhome"
+            android:title="@string/Home_label" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/iconabout"
+            android:title="@string/About_label" />
+        <item
+            android:id="@+id/nav_blogs"
+            android:icon="@drawable/iconhome"
+            android:title="@string/Blogs_label" />
+        <item
+            android:id="@+id/nav_tests"
+            android:icon="@drawable/icontest"
+            android:title="@string/Tests_label" />
+        <item
+            android:id="@+id/nav_resutls"
+            android:icon="@drawable/iconresults"
+            android:title="@string/Results_label" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/iconvideo"
+            android:title="@string/Videos_label" />
+
+
+    </group>
+
+
+</menu>
